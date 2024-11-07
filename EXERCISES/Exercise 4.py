@@ -1,4 +1,4 @@
-#Write a program that asks the user “What is the capital of France?” and waits for their response.
+Write a program that asks the user “What is the capital of France?” and waits for their response.
 qs1=input("whats is the captial of france:")
 ans="france"
 if qs1 == ans:
@@ -6,6 +6,8 @@ if qs1 == ans:
 
 else:
     print("Wrong!")
+
+#Advanced Requirements:
 
 #Ignore Capitalization:
 qs1=input("whats is the captial of france:")
@@ -15,3 +17,5 @@ if qs1.lower() == ans.lower():
 
 else:
     print("Wrong!")
+
+#Multiple Questions:
